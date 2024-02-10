@@ -6,6 +6,11 @@ import FirstProjImg from "@/public/project-dummy1.png";
 import SecondProjImg from "@/public/project-dummy2.png";
 import ThirdProjImg from "@/public/project-dummy3.png";
 
+
+// export const profileImg = [{
+//   imageUrl: ProfileImg,
+// }] as const;
+
 export const links = [
   {
     name: "Home",
@@ -35,50 +40,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Application Developer",
+    location: "Bangalore, Karnataka ,IN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm a web developer working as full-time for last 2.5 years. My stack includes React, Next.js,jQuery, Tailwind,PHP,MySQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - 2023",
+  },
+  {
+    title: "React Developer",
+    location: "Bangalore, Karnataka ,IN",
+    description:
+      "I worked as a front-end developer for 7 months. I am also upskilling to the MERN full stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Game Sphare Hub",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Sleek React.js game hub UI for immersive gaming. Explore a vast game collection, connect with gamers, and enjoy customizable profiles and real-time features. Elevate your gaming with our dynamic and visually stunning design.",
+    tags: ["React", "Bootstrap","HTML", "CSS3","JavaScript"],
     imageUrl: FirstProjImg,
   },
   {
-    title: "rmtDev",
+    title: "Gallery Gleam",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis. ",
+    tags: ["HTML", "CSS3","React", "TypeScript", "Next.js", "Tailwind", "Cloudinary","Shadcn"],
     imageUrl: SecondProjImg,
   },
   {
-    title: "Word Analytics",
+    title: "AI article summarizer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
+    tags: ["HTML", "CSS3","Javascript","React", "Next.js", "Tailwind",],
+    imageUrl: ThirdProjImg,
+  },
+  {
+    title: "Uber Clone",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: ThirdProjImg,
+  },
+  {
+    title: "Youtube Clone",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: ThirdProjImg,
+  },
+  {
+    title: "Weather Forecast App",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: ThirdProjImg,
   },
@@ -88,9 +106,9 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
+  "TypeScript",
   "Node.js",
   "Git",
   "Tailwind",
