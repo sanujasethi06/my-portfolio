@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Web Application Developer",
     location: "Bangalore, Karnataka ,IN",
     description:
-      "I'm a web developer working as full-time for last 2.5 years. My stack includes React, Next.js,jQuery, Tailwind,PHP,MySQL. I'm open to full-time opportunities.",
+      "I'm a web developer working as full-time for last 2.5 years. My stack includes HTML,CSS,React, Javascript,Next.js,jQuery, Tailwind,PHP,MySQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - 2023",
   },

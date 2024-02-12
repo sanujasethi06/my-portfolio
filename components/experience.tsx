@@ -33,7 +33,7 @@ const Experience = () => {
               }}
               contentArrowStyle={{
                 borderRight:
-                  theme === "light"
+                  theme === "dark"
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
