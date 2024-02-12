@@ -15,7 +15,7 @@ const Projects = () => {
     }, [inView, setActiveSection]);
     
   return (
-    <section ref={ref} id='projects' className='scroll-mt-28'>
+    <section ref={ref} id='projects' className='scroll-mt-28 mb-28'>
           <Heading>My projects</Heading>
           <div>
               {projectsData.map((project, index) => (

@@ -2,9 +2,14 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import FirstProjImg from "@/public/project-dummy1.png";
-import SecondProjImg from "@/public/project-dummy2.png";
-import ThirdProjImg from "@/public/project-dummy3.png";
+import FirstProjImg from "@/public/game-hub.png";
+import SecondProjImg from "@/public/gallery.png";
+import ThirdProjImg from "@/public/Ai-summarize.png";
+import FourthProjImg from "@/public/uber.png";
+import FifthProjImg from "@/public/youtube-clone.png";
+import SixthProjImg from "@/public/weather.png";
+
+
 
 
 // export const profileImg = [{
@@ -40,6 +45,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Graduation",
+    location: "Behampur, Odisha ,IN",
+    description:
+      "Transitioned from electronics engineering to IT, embracing innovation and growth in software development and technology solutions.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016 - 2019",
+  },
+  {
     title: "Web Application Developer",
     location: "Bangalore, Karnataka ,IN",
     description:
@@ -61,44 +74,43 @@ export const projectsData = [
   {
     title: "Game Sphare Hub",
     description:
-      "Sleek React.js game hub UI for immersive gaming. Explore a vast game collection, connect with gamers, and enjoy customizable profiles and real-time features. Elevate your gaming with our dynamic and visually stunning design.",
+      "Sleek React.js game hub UI for immersive gaming. Explore a vast game collection, connect with gamers, and enjoy customizable profiles and real-time features. ",
     tags: ["React", "Bootstrap","HTML", "CSS3","JavaScript"],
     imageUrl: FirstProjImg,
   },
   {
     title: "Gallery Gleam",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis. ",
-    tags: ["HTML", "CSS3","React", "TypeScript", "Next.js", "Tailwind", "Cloudinary","Shadcn"],
+      "A comprehensive image gallery app with favorites, image uploads, and album organization, enabling seamless photo management. ",
+    tags: ["HTML", "CSS3","React", "Next.js","TypeScript", "Tailwind", "Cloudinary"],
     imageUrl: SecondProjImg,
   },
   {
     title: "AI article summarizer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
+      "AI article summarizer app condensing articles efficiently, providing concise summaries for streamlined reading and information retrieval.",
     tags: ["HTML", "CSS3","Javascript","React", "Next.js", "Tailwind",],
     imageUrl: ThirdProjImg,
   },
   {
     title: "Uber Clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: ThirdProjImg,
+      "Uber clone app featuring ride-hailing, real-time tracking, payment integration, and driver-partner features, providing convenient transportation services for users.",
+    tags: ["React", "Next.js", "Google Auth", "Tailwind","Google Place API"],
+    imageUrl: FourthProjImg,
   },
   {
     title: "Youtube Clone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: ThirdProjImg,
+      "YouTube clone app with video search, playlists, category, and personalized recommendations, offering a seamless video-sharing experience for users.",
+    tags: ["HTML", "CSS3","React", "Javascript", "Mui", "React Context", "YouTube API"],
+    imageUrl: FifthProjImg,
   },
   {
     title: "Weather Forecast App",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis explicabo fugit nesciunt alias architecto voluptatum, autem libero earum temporibus quia officia obcaecati placeat ipsa, quasi eum soluta nobis.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: ThirdProjImg,
+    description:"This weather app provides up-to-date information on temperature, humidity, wind speed, pressure, and visibility for a given location. ",
+    tags: ["HTML", "CSS3","React", "Javascript", "Weather API", "Tailwind"],
+    imageUrl: SixthProjImg
   },
 ] as const;
 
@@ -115,8 +127,7 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "SQL",
   "Express",
   "PostgreSQL",
   "Python",
