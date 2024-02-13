@@ -46,7 +46,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduation",
-    location: "Behampur, Odisha ,IN",
+    location: "Berhampur, Odisha ,IN",
     description:
       "Transitioned from electronics engineering to IT, embracing innovation and growth in software development and technology solutions.",
     icon: React.createElement(LuGraduationCap),
