@@ -29,7 +29,7 @@ const Contact = () => {
         once: true,
       }} >
           <Heading>Contact me</Heading>
-          <p className='text-gray-700 -mt-6'>Please contact me directly at {" "}
+          <p className='text-gray-700 -mt-6 dark:text-white/80'>Please contact me directly at {" "}
               <a className="underline" href="mailto:example@gmail.com">example@gmail.com</a>{" "} or through this form.</p>
           
           <form action={async (formData) => {
@@ -39,11 +39,11 @@ const Contact = () => {
                   return;
               }
               toast.success("Email sent sucessfully!")
-          }} className='mt-10 flex flex-col'>
-              <input type="email" className='h-14 px-4 rounded-lg borderBlack' placeholder='Your email'
+          }} className='mt-10 flex flex-col dark:text-black'>
+              <input type="email" className='h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' placeholder='Your email'
                   name="senderEmail"
                   maxLength={500} required />
-              <textarea name="message" id="" className='h-52 my-3 rounded-lg p-4' placeholder='Your message'  maxLength={5000} required/>
+              <textarea name="message" id="" className='h-52 my-3 rounded-lg p-4 borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none' placeholder='Your message'  maxLength={5000} required/>
              <SubmitBtn/>
           </form>
     </motion.section>
