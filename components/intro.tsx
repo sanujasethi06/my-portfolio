@@ -87,7 +87,7 @@ const Intro = () => {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/sanuja-kumar-sethi-632317138/"
           target="_blank"
         >
           <BsLinkedin />
@@ -95,7 +95,7 @@ const Intro = () => {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
-          href="https://github.com"
+          href="https://github.com/sanujasethi06"
           target="_blank"
         >
           <FaGithubSquare />
