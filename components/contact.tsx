@@ -30,7 +30,7 @@ const Contact = () => {
       }} >
           <Heading>Contact me</Heading>
           <p className='text-gray-700 -mt-6 dark:text-white/80'>Please contact me directly at {" "}
-              <a className="underline" href="mailto:sethisanuja1998@gmail.com">example@gmail.com</a>{" "} or through this form.</p>
+              <a className="underline" href="mailto:sethisanuja1998@gmail.com">sethisanuja1998@gmail.com</a>{" "} or through this form.</p>
           
           <form action={async (formData) => {
               const { data, error } = await sendEmail(formData);
