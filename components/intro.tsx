@@ -53,7 +53,7 @@ const Intro = () => {
               <span className="font-bold">Hello, I'm Sanuja.</span> I'm a{" "}
         <span className="font-bold">Frontend developer</span> with{" "}
         <span className="font-bold">3 years</span> of experience. I'm passionate to
-        building <span className="italic">websites & apps</span>. My focus is{" "}
+        build <span className="italic">websites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
           </motion.h1>
           <motion.div
